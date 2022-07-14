@@ -1,0 +1,24 @@
+{
+  "name": "library-backend",
+  "version": "0.1.0",
+  "description": "web api and backend for library management system",
+  "main": "index.js",
+  "scripts": {
+    "start": "babel-node index",
+    "dev": "nodemon --exec babel-node index"
+  },
+  "author": "antony0101",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "joi": "^17.6.0",
+    "mongoose": "^6.4.4"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.18.6",
+    "@babel/node": "^7.18.6",
+    "@babel/preset-env": "^7.18.6",
+    "nodemon": "^2.0.19"
+  }
+}
